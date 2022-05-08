@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background: antiquewhite;
+}
+body{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.stuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stuff p{
+    margin-bottom: 0px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links a{
+    padding: 2px;
+}
+.home{
+    padding: 5px;
+}
+.home *{
+    background: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+.user1 header{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px black;
+    justify-content: space-between;
+    width: 326px;
+}
+.chatguy header{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px black;
+    justify-content: flex-start;
+    width: 326px;
+}
+header .user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+header .user .userinfo p{
+    margin: 0px;
+    font-size: small;
+}
+header .user .userinfo span{
+    padding: 0px;
+}
+.statususer{
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 40px;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+.online{
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 40px;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+.offline{
+    background-color: orangered;
+    height: 10px;
+    width: 10px;
+    border-radius: 40px;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+.search input{
+    margin-top: 5px;
+    width: 270px;
+    border-color: rgb(19, 7, 7);
+    font-size: 17px;
+    padding: 8px 17px;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    border-radius: 0;
+    border-bottom: solid 1px black;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+.contacts .contactinfo{
+    height: 40px;
+    margin-top: 0px;
+}
+.user1{
+    width: 312px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.list{
+    max-height: 300px;
+    overflow-y: auto;
+}
+.user1 a{
+    display: flex;
+    align-items: center;
+    color: black;
+}
+/*chatbox css*/
+.chatbox{
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    overflow-y: auto;
+}
+.chatguy{
+    width: 350px;
+}
+.chatguy a{
+    font-size: x-large;
+    color: black;
+}
+.chatguy .chatbox .sent{
+    display: flex;
+    justify-content: flex-end;
+}
+.chatguy .chatbox .sent p{
+    background-color: grey;
+    color: white;
+    border-bottom-right-radius: 0;
+    padding: 10px;
+    margin: 0px;
+}
+.chatguy .chatbox .recieved{
+    display: flex;
+    align-items: center;
+
+}
+.chatguy .chatbox .recieved img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.chatguy .chatbox .recieved p{
+    background-color: rgb(19, 7, 7);
+    color: white;
+    border-bottom-left-radius: 0;
+    padding: 10px;
+}
+.chatguy .search{
+    display: flex;
+    align-items: flex-end;
+}
+.chatguy .search .msg{
+    border: 2px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+}
+.chatguy .search .send{
+    background-color: rgb(19, 7, 7);
+    color: white;
+    width: 50px;
+    padding-right: 0px;
+    padding-left: 0px ;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    cursor: pointer;
+}
